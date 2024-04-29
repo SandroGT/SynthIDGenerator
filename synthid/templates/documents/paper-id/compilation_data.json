@@ -1,0 +1,110 @@
+{
+  "generic": {
+    "font_size": 40,
+    "font_type": "Appareo-Light.ttf",
+    "font_boldness": 0.5,
+	"font_color": [60, 60, 60],
+    "text_uppercase": true,
+    "text_kerning": 0,
+    "text_interword_spacing": 0,
+    "global_position_range": {"front": [[-10, 20], [-8, 2]], "back": [10, 5]},
+    "local_position_range": [2, 1],
+    "text_effects": ["degradation"],
+    "picture_effects": []
+  },
+    "layer_effects": {
+    "text": null,
+    "pictures": null,
+    "composition": ["degradation", "resize"]
+  },
+  "front": {
+    "surname": {
+      "position": [300, 112]
+    },
+    "name": {
+      "position": [260, 174]
+    },
+    "date_of_birth": {
+      "position": [260, 238]
+    },
+    "act_n": {
+      "position": [260, 302]
+    },
+    "act_p": {
+      "position": [465, 302],
+      "local_position_range": [0, 0]
+    },
+    "act_s": {
+      "position": [640, 302],
+      "local_position_range": [0, 0]
+    },
+    "place_of_birth": {
+      "position": [180, 366]
+    },
+    "citizenship": {
+      "position": [380, 429]
+    },
+    "residence": {
+      "position": [340, 493]
+    },
+    "address": {
+      "position": [180, 556],
+      "text_uppercase": false
+    },
+    "civil_status": {
+      "position": [340, 621],
+      "text_uppercase": false
+    },
+    "profession": {
+      "position": [340, 685],
+      "text_uppercase": false
+    },
+    "height_cm_no_measure": {
+      "position": [260, 836]
+    },
+    "hair": {
+      "position": [260, 900]
+    },
+    "eyes": {
+      "position": [260, 963]
+    },
+    "particular_signs": {
+      "position": [400, 1029]
+    },
+    "releasing_entity": {
+      "position": [1010, 774],
+      "text_uppercase": false
+    },
+    "release_date": {
+      "position": [1370, 769]
+    },
+    "face_picture": {
+      "position": [1114, 118],
+      "size": [450, 550]
+    }
+  },
+  "back": {
+    "expiration_date": {
+      "position": [463, 304],
+      "text_kerning": 15,
+      "text_position_reference": ["c", "t"]
+    },
+    "name": {
+      "position": [1362, 1115],
+      "text_position_reference": ["c", "t"]
+    },
+    "surname": {
+      "position": [1362, 1035],
+      "text_position_reference": ["c", "t"]
+    },
+    "releasing_entity": {
+      "position": [1362, 589],
+      "text_position_reference": ["c", "t"]
+    },
+    "card_n": {
+      "position": [[463, 928], [1273, 807]],
+      "text_position_reference": [["c", "t"], ["l", "t"]],
+      "font_size": 70
+    }
+  }
+}

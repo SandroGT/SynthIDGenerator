@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Downloading face pictures archive"
+wget -O face_pictures.tmp "https://figshare.com/ndownloader/files/8541961"
+echo "Extracting pictures"
+unzip face_pictures.tmp
+mkdir face_pictures
+mv neutral_front/*.jpg face_pictures
+echo "Removing useless files"
+rm face_pictures.tmp
+rm -rf neutral_front __MACOSX

@@ -1,0 +1,86 @@
+{
+  "generic": {
+    "font_size": 16,
+    "font_type": "OCR-B.ttf",
+    "font_boldness": 0.3,
+    "font_color": [40, 40, 40],
+    "text_uppercase": true,
+    "text_kerning": -2,
+    "text_interword_spacing": 8,
+    "global_position_range": [3, 1],
+    "local_position_range": null,
+    "text_effects": ["degradation"],
+    "picture_effects": ["Digital-ID"]
+  },
+  "layer_effects": {
+    "text": null,
+    "pictures": null,
+    "composition": ["degradation", "resize"]
+  },
+  "front": {
+    "surname": {
+      "position": [348, 218]
+    },
+    "name": {
+      "position": [348, 268]
+    },
+    "place_and_date_of_birth": {
+      "position": [349, 335]
+    },
+    "sex": {
+      "position": [349, 400]
+    },
+    "height_cm": {
+      "position": [497, 400]
+    },
+    "nationality_short": {
+      "position": [677, 400]
+    },
+    "expiration_date": {
+      "position": [677, 451]
+    },
+    "releasing_entity": {
+      "position": [205, 173]
+    },
+    "digital_id_code": {
+      "position": [765, 60],
+      "font_size": 25
+    },
+    "face_picture": {
+      "position": [100, 200],
+      "size": [225, 310]
+    },
+    "emission_date": {
+      "position": [350, 451]
+    },
+    "digital_id_number": {
+      "position": [796, 481],
+      "font_size": 32
+    }
+  },
+  "back": {
+    "fiscal_code": {
+      "position": [75, 145]
+    },
+    "complete_address": {
+      "position": [76, 193],
+      "text_uppercase": false
+    },
+    "birth_certificate_details": {
+      "position": [482, 130],
+      "text_uppercase": false,
+      "text_interword_spacing": 5
+    },
+    "cie_back_codes": {
+      "position": [77, 471],
+      "font_size": 32,
+      "font_boldness": 0,
+      "text_kerning": 2,
+      "text_interline_spacing": -6
+    },
+    "face_picture": {
+      "position": [838, 77],
+      "size": [130, 180]
+    }
+  }
+}

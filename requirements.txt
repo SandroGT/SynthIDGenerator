@@ -1,0 +1,7 @@
+augraphy==8.2.6
+logger==1.4
+numpy==1.26.4
+Pillow==10.3.0
+rembg==2.0.56
+tqdm==4.66.2
+wand==0.6.13

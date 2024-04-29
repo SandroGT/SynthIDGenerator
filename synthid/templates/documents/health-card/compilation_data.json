@@ -1,0 +1,72 @@
+{
+  "generic": {
+    "font_size": 24,
+    "font_type": "OCR-B.ttf",
+    "font_boldness": 0.75,
+    "font_color": [40, 40, 40],
+    "text_uppercase": true,
+    "text_kerning": -2,
+    "text_interword_spacing": 8,
+    "global_position_range": 2,
+    "local_position_range": 1,
+    "text_effects": ["degradation"],
+    "picture_effects": []
+  },
+  "layer_effects": {
+    "text": null,
+    "pictures": null,
+    "composition": ["degradation", "resize"]
+  },
+  "front": {
+    "fiscal_code": {
+      "position": [219, 265]
+    },
+    "expiration_date": {
+      "position": [801, 265]
+    },
+    "surname": {
+      "position": [219, 331]
+    },
+    "name": {
+      "position": [219, 381]
+    },
+    "sex": {
+      "position": [951, 381]
+    },
+    "town": {
+      "position": [219, 443]
+    },
+    "province": {
+      "position": [219, 505]
+    },
+    "date_of_birth": {
+      "position": [219, 568]
+    }
+  },
+  "back": {
+    "surname": {
+      "position": [72, 400]
+    },
+    "name": {
+      "position": [72, 464]
+    },
+    "date_of_birth": {
+      "position": [978, 464],
+      "text_position_reference": ["r", "t"]
+    },
+    "fiscal_code": {
+      "position": [72, 530]
+    },
+    "hc_institution_id_number": {
+      "position": [978, 530],
+      "text_position_reference": ["r", "t"]
+    },
+    "hc_card_id_number": {
+      "position": [72, 595]
+    },
+    "expiration_date": {
+      "position": [978, 595],
+      "text_position_reference": ["r", "t"]
+    }
+  }
+}

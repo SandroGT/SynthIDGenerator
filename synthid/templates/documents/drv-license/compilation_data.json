@@ -1,0 +1,53 @@
+{
+  "generic": {
+    "font_size": 34,
+    "font_type": "Arial-Regular.ttf",
+    "font_boldness": 0,
+    "font_color": [17, 17, 17],
+    "text_uppercase": true,
+    "text_kerning": 0,
+    "text_interword_spacing": 0,
+    "global_position_range": null,
+    "local_position_range": null,
+    "text_effects": ["degradation"],
+    "picture_effects": ["DRV-License"]
+  },
+    "layer_effects": {
+    "text": null,
+    "pictures": null,
+    "composition": ["degradation", "resize"]
+  },
+  "front": {
+    "surname": {
+      "position": [414, 101]
+    },
+    "name": {
+      "position": [414, 153]
+    },
+    "date_of_birth": {
+      "position": [414, 205]
+    },
+    "place_of_birth": {
+      "position": [600,205]
+    },
+    "release_date": {
+      "position": [414, 257],
+      "font_boldness": 0.90
+    },
+    "releasing_entity_drv": {
+      "position": [664, 257]
+    },
+    "expiration_date": {
+      "position": [414, 309],
+      "font_boldness": 0.90
+    },
+    "drv_card_id": {
+      "position": [414, 361]
+    },
+    "face_picture": {
+      "position": [35, 225],
+      "size": [287, 260]
+    }
+  },
+  "back": {}
+}
